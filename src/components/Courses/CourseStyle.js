@@ -6,6 +6,9 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 5rem;
+  @media screen and (max-width: 768px) {
+    padding: 0rem;
+  }
 `;
 export const Info = styled.div`
   display: flex;
@@ -13,7 +16,7 @@ export const Info = styled.div`
   align-items: center;
   flex-direction: column;
   text-align: center;
-  max-width: 50rem;
+  max-width: 30rem;
 `;
 export const Icon = styled.div`
   display: flex;

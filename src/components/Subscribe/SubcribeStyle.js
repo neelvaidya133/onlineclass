@@ -8,6 +8,9 @@ export const Container = styled.div`
   padding-top: 15rem;
   padding-left: 5rem;
   padding-right: 5rem;
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
 `;
 export const Icon = styled.div`
   padding-bottom: 10rem;
